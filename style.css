@@ -1,5 +1,48 @@
 body {
     background-image: url(images/background.jpeg);
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: antiquewhite;
+    
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Navbar Styling */
+nav a {
+    float: left;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+nav a:active {color: green;}
+
+/* Adjusting right links */
+#nav-right a {float: right;}
+
+/* Center links */
+#nav-center a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(223, 0, 0);
 }

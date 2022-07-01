@@ -1,3 +1,5 @@
+* {padding: 0; margin: 0;}
+
 body {
     background-image: url(images/background.jpeg);
     background-size: cover;
@@ -12,6 +14,8 @@ main {
     margin-right: auto;
     width: 100%;
 }
+
+/* Navbar Settings */
 
 nav {
     position: relative;
@@ -46,3 +50,5 @@ nav a:active {color: green;}
     transform: translate(-50%, -50%);
     background-color: rgb(223, 0, 0);
 }
+/* End Navbar Settings */
+

@@ -1,22 +1,29 @@
+* {padding: 0; margin: 0;}
+
 body {
     background-image: url(images/background.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: antiquewhite;
-    
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
+iframe {border-radius: 10px;}
 
 main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    text-align: center;
 }
 
+/* Navbar Settings */
+
 nav {
-    position: relative;
+    position: fixed;
+    width: 100%;
     background-color: black;
     overflow: hidden;
+    top: 0;
+    z-index: 10;
 }
 
 /* Navbar Styling */
@@ -45,4 +52,31 @@ nav a:active {color: green;}
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(223, 0, 0);
+}
+/* End Navbar Settings */
+
+/* Home Page Settings */
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 4em;
+    text-shadow: 5px 5px 5px black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 5px black;
+    color: rgb(223, 0, 0);
+}
+
+#demoReel {
+    margin-top: 30px;
+}
+
+#latest {
+    font-size: 3em;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px black;
 }

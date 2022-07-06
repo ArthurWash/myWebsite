@@ -36,10 +36,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: gray;
+    background-color: rgb(44, 44, 44);
+    color: rgb(239, 0, 0);
 }
 
-nav a:active {color: green;}
+nav a:active {color: rgb(239, 0, 0);}
 
 /* Adjusting right links */
 #nav-right a {float: right;}
@@ -51,7 +52,7 @@ nav a:active {color: green;}
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(223, 0, 0);
+    background-color: rgb(239, 0, 0);
 }
 /* End Navbar Settings */
 
@@ -67,7 +68,7 @@ h2 {
     text-align: center;
     font-size: 1.5em;
     text-shadow: 5px 5px 5px black;
-    color: rgb(223, 0, 0);
+    color: rgb(239, 0, 0);
 }
 
 #demoReel {
@@ -78,5 +79,19 @@ h2 {
     font-size: 3em;
     margin-top: 80px;
     margin-bottom: 20px;
+    text-shadow: 5px 5px 5px black;
+}
+
+/* Contact Page Settings */
+.contact {
+    font-size: 3em;
+    color: antiquewhite;
+}
+
+.contactLink {
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(239, 0, 0);
     text-shadow: 5px 5px 5px black;
 }

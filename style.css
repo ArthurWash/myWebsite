@@ -43,7 +43,7 @@ nav a:hover {
 nav a:active {color: rgb(239, 0, 0);}
 
 /* Adjusting right links */
-#nav-right a {float: right;}
+.right {float: right;}
 
 /* Center links */
 #nav-center a {
@@ -56,6 +56,38 @@ nav a:active {color: rgb(239, 0, 0);}
 }
 
 #nav-center a:hover {color: antiquewhite;}
+
+label {
+    font-size: 37px;
+    line-height: auto;
+    color: antiquewhite;
+    display: none;
+    width: 26px;
+    float: right;
+    margin-right: 15px;
+}
+#toggle {display: none;}
+
+/* Navbar mobile settings */
+@media screen and (max-width: 575px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        clear: right;
+        display: block;
+        border-bottom: 1px solid white;
+        margin: 0;
+        float: none;
+    }
+    #toggle:checked + .menu {display: block;}
+}
 
 /* End Navbar Settings */
 

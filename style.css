@@ -132,6 +132,22 @@ h2 {
 
 .mobileStack {display: none;}
 
+.more {
+    font-size: 2em;
+    color: antiquewhite;
+    text-decoration: none;
+    background-color: #444444;
+    text-shadow: 5px 5px 5px black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.more:hover {
+    color: rgb(239, 0, 0);
+}
+
+.more:active {background-color: rgb(83, 83, 83);}
+
 /* Contact Page Settings */
 .contact {
     font-size: 3em;

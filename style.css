@@ -102,7 +102,6 @@ label {
     }
     #toggle:checked + .menu {display: block;}
 }
-
 /* End Navbar Settings */
 
 /* Home Page Settings */
@@ -131,6 +130,8 @@ h2 {
     text-shadow: 5px 5px 5px black;
 }
 
+.mobileStack {display: none;}
+
 /* Contact Page Settings */
 .contact {
     font-size: 3em;
@@ -154,4 +155,15 @@ img {border-radius: 10px;}
     margin-right: 25%;
     text-shadow: 5px 5px 5px black;
     font-size: 1.5em;
+}
+
+/* Nav Bar tablet settings */
+@media screen and (max-width: 1688px) {
+    .videoStack {
+        display: none;
+    }
+    
+    .mobileStack {
+        display: block;
+    }
 }

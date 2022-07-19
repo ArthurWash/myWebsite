@@ -148,6 +148,13 @@ h2 {
 
 .more:active {background-color: rgb(83, 83, 83);}
 
+.social {
+    width: 20%;
+    margin: auto auto;
+    padding: 15px;
+    ;
+}
+
 /* Contact Page Settings */
 .contact {
     font-size: 3em;

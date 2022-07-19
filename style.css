@@ -119,6 +119,11 @@ h2 {
     color: rgb(239, 0, 0);
 }
 
+#social {
+    margin: auto auto;
+    padding: 15px;
+}
+
 #demoReel {
     margin-top: 30px;
 }
@@ -148,13 +153,6 @@ h2 {
 
 .more:active {background-color: rgb(83, 83, 83);}
 
-.social {
-    width: 20%;
-    margin: auto auto;
-    padding: 15px;
-    ;
-}
-
 /* Contact Page Settings */
 .contact {
     font-size: 3em;
@@ -183,7 +181,7 @@ img {border-radius: 10px;}
     border-radius: 10px;
 }
 
-/* Nav Bar tablet settings */
+/* tablet settings */
 @media screen and (max-width: 1688px) {
     .videoStack {
         display: none;
@@ -194,7 +192,24 @@ img {border-radius: 10px;}
     }
 }
 
+/* Video thumbnail smaller screen settings */
+@media screen and (max-width: 1121px) {
+    #demoReel {width: 80%;}
+}
+
+/* Latest Video smaller screen settings */
+@media screen and (max-width: 563px) {
+    div iframe {width: fit-content;}
+}
+
+/* Mobile Settings */
+@media screen and (max-width: 480px) {
+    #demoReel {width: 80%;}
+
+    div iframe {width: fit-content;}
+}
+
 /* Audio Portfolio Settings */
 .audioStack {
     padding: 20px;
-}
+}565

@@ -171,6 +171,9 @@ img {border-radius: 10px;}
     margin-right: 25%;
     text-shadow: 5px 5px 5px black;
     font-size: 1.5em;
+    background-color: #444444bf;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 /* Nav Bar tablet settings */
@@ -182,4 +185,9 @@ img {border-radius: 10px;}
     .mobileStack {
         display: block;
     }
+}
+
+/* Audio Portfolio Settings */
+.audioStack {
+    padding: 20px;
 }

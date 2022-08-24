@@ -83,7 +83,7 @@ label {
 #toggle {display: none;}
 
 /* Navbar mobile settings */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 625px) {
     label {
         display: block;
         cursor: pointer;
@@ -200,16 +200,17 @@ img {border-radius: 10px;}
 /* Latest Video smaller screen settings */
 @media screen and (max-width: 563px) {
     div iframe {width: fit-content;}
+    #resume {width: fit-content;}
 }
 
 /* Mobile Settings */
 @media screen and (max-width: 480px) {
     #demoReel {width: 80%;}
-
+    #resume {width: fit-content;}
     div iframe {width: fit-content;}
 }
 
 /* Audio Portfolio Settings */
 .audioStack {
     padding: 20px;
-}565
+}

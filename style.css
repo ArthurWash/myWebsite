@@ -59,18 +59,6 @@ nav a:active {background-color: rgb(83, 83, 83);}
 /* Adjusting right links */
 .right {float: right;}
 
-/* Center links */
-#nav-center a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(239, 0, 0);
-}
-
-#nav-center a:hover {color: antiquewhite;}
-
 label {
     font-size: 37px;
     line-height: auto;

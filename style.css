@@ -107,7 +107,7 @@ h2 {
     color: rgb(239, 0, 0);
 }
 
-#social {
+.social {
     margin: auto auto;
     padding: 15px;
 }
@@ -201,4 +201,37 @@ img {border-radius: 10px;}
 /* Audio Portfolio Settings */
 .audioStack {
     padding: 20px;
+}
+
+/* Website Portfolio Settings */
+.tooltip{
+    position: relative;
+    display: contents;
+}
+
+
+.tooltip .webDesc {
+    visibility: hidden;
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 10px;
+
+    /* Positioning Tooltip Text */
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 50%;
+    margin-left: -15%;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: all .75s ease-out;
+}
+
+.tooltip:hover .webDesc{
+    visibility: visible;
+    opacity: 1;
+    transition: all .75s ease-in;
 }

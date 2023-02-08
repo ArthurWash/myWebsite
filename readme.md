@@ -1,13 +1,11 @@
-This is a website in progress I'm creating to show my video producer work experience. 
+This is my personal website to promote my skills in Web Development, Video Production, and Audio Production.
 
-This will include:
-1. A home page with various thumbnails of videos I've done over the years
-2. A contact page
-3. An about me page
-4. A Video Portfolio Page
-5. An Audio Portfolio Page
-6. A resume page
+This includes:
+1. A home page which provides a general overview
+2. A video portfolio page
+3. An audio portfolio page
+4. A web development page
+5. An about me page
+6. A contact page
 
-Please note:
-I created this website while learning how to use HTML and CSS. This was created using the foundations I learned, and research I did for certain elements. 
-V2 will restructure the website to use Bootstrap.
+This has been an interesting project, as I started this website back when I was fresh out of an HTML/CSS foundation course. The differences are very apparent between V1 and V2. In V2 (current version). I'm proud with how this came out!

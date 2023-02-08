@@ -8,92 +8,113 @@
     <title>Arthur J. Wash</title>
 </head>
 <body>
+    <nav>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+        <a style="color: rgb(239, 0, 0);" href="index.html">Home</a>
+        <a href="videoPortfolio.html">Video Portfolio</a>
+        <a href="audioPortfolio.html">Audio Portfolio</a>
+        <a href="websitePortfolio.html">Website Portfolio</a>
+        <a class="right" href="contact.html">Contact</a>
+        <a class="right" href="about.html">About me</a>                
+        </div>
+    </nav>
+    
     <main>
-        <nav>
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle"/>
-            <div class="menu">
-            <a style="color: rgb(239, 0, 0);" href="index.html">Home</a>
-            <a href="videoPortfolio.html">Video Portfolio</a>
-            <a href="audioPortfolio.html">Audio Portfolio</a>
-            <a href="websitePortfolio.html">Website Portfolio</a>
-            <a class="right" href="contact.html">Contact</a>
-            <a class="right" href="about.html">About me</a> 
-            <a class="right" href="resume.html">Resume</a>                
-            </div>
-        </nav>
-
         <h1>Arthur J. Wash</h1>
         <h2>Video Portfolio</h2>
 
-        <iframe id="demoReel" width="1120" height="630" src="https://www.youtube.com/embed/nGr8HFY26Mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <br>
-        <br>
         <br>
 
-        <div class="videoStack">
-            <!--HSS Chat June 29-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FH-JrekuHk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Title IX-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/56EcvrpxXOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Achilles Chat June 23-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_XmZRCAyD1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="videoStack">
-            <!--Front Runners LGBTQ+ Run Panel-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-t24XfCZeQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Horseplayers' Happy Hour June 16-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/P2Aqlyh1uyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Belmont Final Answers Show-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DU-mRscilm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="videoStack">
-            <!--RBC Brooklyn Half Race Day Tips May 20-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xxji1CF57wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--RBC Brooklyn HCS May 20-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-MbOuyjxs1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!--Half Course Start May 19-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Wo1LM4984Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id=demoReelDiv>
+            <div id="demoReelItem">
+                <iframe class="video" src="https://www.youtube.com/embed/nGr8HFY26Mc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
 
-        <!--Mobile Video Stack Layout-->
-        <div class="mobileStack">
-            <!--HSS Chat June 29-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FH-JrekuHk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+
+        <div class="media-container">
+            <!-- Injury Prevention Excercises For Knees (For New York Road Runners) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/XsfU69GH5KI" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- What Does Title IX Mean to You? (For New York Road Runners) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/56EcvrpxXOk" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- HSS Coaches Chat | January 25, 2023 (For New York Road Runners) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/CaJCCotxidk" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="mobileStack">
-            <!--Title IX-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/56EcvrpxXOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="media-container">
+            <!-- Celebrating Our Final Finishers (For New York Road Runners) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/ub5SV5aiZzk" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Tigray Genocide Feature (For New York Road Runners) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/lhkvgG-xdac" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- 2021 Breeders' Cup MONSTER POD #1: Friday Plus (For In the Money Media) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/VE7jXiy419Q" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="mobileStack">
-            <!--Achilles Chat June 23-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_XmZRCAyD1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="media-container">
+            <!-- Horseplayers' Happy Hour | October 20, 2022 (For In the Money Media) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/S9V-AtsSFao" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- How to use DRF Mobile PPs (For Daily Racing Form) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/hs3vvW3fLA0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Derby Watch - May 20, 2020 -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/qjR1nF4Oyx4" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="mobileStack">
-            <!--Front Runners LGBTQ+ Run Panel-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-t24XfCZeQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="media-container">
+            <!-- Out of the Gate - Episode 138 - Pegasus World Cup Edition (For Daily Racing Form) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/a8rh3lx0_6E" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Julie Krone's Return to Belmont Park - 25th Anniversary of Colonial Affair's Victory (For Daily Racing Form) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/uhH-atdJw44" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Pack at the Track 2018 Feature (For Daily Racing Form) -->
+            <div class="media-item">
+                <iframe class="video" src="https://www.youtube.com/embed/videoseries?list=PL1FLDQg-rjnuwaHsrfzapHEKIIS52As_a" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="mobileStack">
-             <!--Horseplayers' Happy Hour June 16-->
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/P2Aqlyh1uyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="mobileStack">
-             <!--Belmont Final Answers Show-->
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/DU-mRscilm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="mobileStack">
-            <!--RBC Brooklyn Half Race Day Tips May 20-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xxji1CF57wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="mobileStack">
-            <!--RBC Brooklyn HCS May 20-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-MbOuyjxs1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="mobileStack">
-            <!--Half Course Start May 19-->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Wo1LM4984Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+
+        <br><br>
     </main>
+
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/arthurwash/" target="_blank">
+                <img class="footerImg" src="images/LinkedInLogo.png">
+            </a>
+            <a href="https://github.com/ArthurWash" target="_blank">
+                <img class="footerImg" src="images/GitHubLogo.png">
+            </a>
+            <a href="https://soundcloud.com/aj-wash" target="_blank">
+                <img class="footerImg" src="images/SoundCloud Logo.png">
+            </a>
+            <a href="https://faultyparachute.bandcamp.com/" target="_blank">
+                <img class="footerImg" src="images/BandcampLogo.png">
+            </a>
+        </div>
+
+        <p>Created by <span>AJ Wash</span></p>
+    </footer>
 </body>
 </html>

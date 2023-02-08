@@ -8,28 +8,39 @@
     <title>About me</title>
 </head>
 <body>
-    <main>
-        <nav>
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle"/>
-            <div class="menu">
-            <a style="color: rgb(239, 0, 0);" href="index.html">Home</a>
-            <a href="videoPortfolio.html">Video Portfolio</a>
-            <a href="audioPortfolio.html">Audio Portfolio</a>
-            <a href="websitePortfolio.html">Website Portfolio</a>
-            <a class="right" href="contact.html">Contact</a>
-            <a class="right" href="about.html">About me</a>  
-            <a class="right" href="resume.html">Resume</a>               
-            </div>
-        </nav>
-        
+    <nav>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+        <a style="color: rgb(239, 0, 0);" href="index.html">Home</a>
+        <a href="videoPortfolio.html">Video Portfolio</a>
+        <a href="audioPortfolio.html">Audio Portfolio</a>
+        <a href="websitePortfolio.html">Website Portfolio</a>
+        <a class="right" href="contact.html">Contact</a>
+        <a class="right" href="about.html">About me</a>            
+        </div>
+    </nav>
+
+    <main>        
         <h1>About me</h1>
-        <br>
-        <br>
-        <img src="images/me.jpg" alt="AJ Wash">
-        <br>
-        <br>
-        <br>
+        <br><br>
+        
+        <div class="button-container">
+            <div class="button-item">
+                <a class="aboutBtn" target="_blank" href="files/Arthur_Jay_Wash_Resume_2022.pdf">Production Resume</a>
+            </div>
+
+            <div class="button-item">
+                <a class="aboutBtn" target="_blank" href="files/Arthur Wash  Programming Resume 2023.pdf">Programming Resume</a>
+            </div>
+        </div>
+
+        <br><br>
+
+        <img id="mePic" src="images/me.jpg" alt="AJ Wash">
+
+        <br><br><br>
+        
         <p id="aboutMe">Hello! My name is Arthur, but you can call me AJ.
             My journey began at County College of Morris (CCM), where I majored in Music Recording. I then went to Montclair State University (MSU) and majored in Television & Digital Media with a concentration in audio.
             Lastly, I am currently attending New Jersey Insititue of Technology for a Master's in Information Systems (fun fact, I made this site from scratch!)<br>
@@ -40,7 +51,26 @@
             <br><br>
             While I attend grad school, I am currently freelancing for New York Road Runners (NYRR) and In the Money Media (ITM) as a video producer. This includes on field shoots for races in NYC, producing livestreams, and editing features.
         </p>
+
         <br>
     </main>
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/in/arthurwash/" target="_blank">
+                <img class="footerImg" src="images/LinkedInLogo.png">
+            </a>
+            <a href="https://github.com/ArthurWash" target="_blank">
+                <img class="footerImg" src="images/GitHubLogo.png">
+            </a>
+            <a href="https://soundcloud.com/aj-wash" target="_blank">
+                <img class="footerImg" src="images/SoundCloud Logo.png">
+            </a>
+            <a href="https://faultyparachute.bandcamp.com/" target="_blank">
+                <img class="footerImg" src="images/BandcampLogo.png">
+            </a>
+        </div>
+
+        <p>Created by <span>AJ Wash</span></p>
+    </footer>
 </body>
 </html>

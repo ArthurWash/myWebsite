@@ -125,14 +125,16 @@ nav a:hover {
 
 .label-container{
     display: grid;
+    padding: 20px;
     grid-template-columns: auto auto auto;
     margin: auto;
+    width: 90%;
+    column-gap: 5%;
+    
 }
 
 .label-item{
-    padding: 20px;
     text-align: center;
-    column-gap: 5%;
     width: 100%;
 }
 
@@ -228,15 +230,14 @@ h2 {
 .more:active {background-color: rgb(83, 83, 83);}
 
 @media screen and (max-width: 740px) {
-    h2{font-size: 1em;}
+    h2{font-size: .8em;}
 
     .skill-container{
         grid-template-columns: auto;
         width: 90%;
     }
 
-    .label-item{
-        font-size: .8em;}
+    .label-item{font-size: .8em;}
 }
 /************************************
 *       Contact Page Settings       *

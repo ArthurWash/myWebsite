@@ -138,6 +138,15 @@ nav a:hover {
     width: 100%;
 }
 
+.view-more-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+    column-gap: 5%;
+}
+
 .video{
     position: absolute;
     top: 0;
@@ -229,8 +238,18 @@ h2 {
 
 .more:active {background-color: rgb(83, 83, 83);}
 
+@media screen and (max-width: 1246px) {
+    .skill-container{width: 85%;}
+}
+
 @media screen and (max-width: 740px) {
     h2{font-size: .8em;}
+
+    #various{font-size: 2em;}
+
+    .label-container{visibility: hidden;}
+
+    .overview-container{grid-template-columns: auto;}
 
     .skill-container{
         grid-template-columns: auto;

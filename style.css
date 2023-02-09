@@ -143,7 +143,7 @@ nav a:hover {
     grid-template-columns: auto auto auto;
     margin: auto;
     padding: 10px;
-    width: 100%;
+    width: 90%;
     column-gap: 5%;
 }
 
@@ -249,7 +249,10 @@ h2 {
 
     .label-container{visibility: hidden;}
 
-    .overview-container{grid-template-columns: auto;}
+    .overview-container{
+        grid-template-columns: auto;
+        row-gap: 1%;
+    }
 
     .skill-container{
         grid-template-columns: auto;

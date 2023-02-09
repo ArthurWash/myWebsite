@@ -9,3 +9,6 @@ This includes:
 6. A contact page
 
 This has been an interesting project, as I started this website back when I was fresh out of an HTML/CSS foundation course. The differences are very apparent between V1 and V2. In V2 (current version). I'm proud with how this came out!
+
+V2.1
+In this update, I fixed the mobile settings to make the website more mobile friendly.

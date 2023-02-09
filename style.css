@@ -336,6 +336,10 @@ h2 {
 
 }
 
+@media screen and (max-width: 748px) {
+    #demoReelDiv{width: 90%;}
+}
+
 /************************************
 *        Audio Page Settings        *
 ************************************/

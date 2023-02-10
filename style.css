@@ -199,7 +199,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     text-shadow: 5px 5px 5px black;
     color: rgb(239, 0, 0);
 }
@@ -243,7 +243,9 @@ h2 {
 }
 
 @media screen and (max-width: 740px) {
-    h2{font-size: .8em;}
+    #skillTitles{font-size: .8em;}
+
+    h2{font-size: 1.5em;}
 
     #various{font-size: 2em;}
 

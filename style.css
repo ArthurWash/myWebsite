@@ -388,7 +388,7 @@ h2 {
 
 @media screen and (max-width: 740px) {
     .media-container{display: block;}
-
+    .space{display: none;}
     .media-item{margin: 10px 0;}
 }
 
@@ -434,7 +434,6 @@ h2 {
 }
 
 footer{
-    
     background-color: black;
     text-align: center;
     padding: 20px;
@@ -442,9 +441,7 @@ footer{
 
 footer p span {color:rgb(239, 0, 0)}
 
-.footerImg{
-    width: 25px;
-}
+.footerImg{width: 25px;}
 
 /* Global Mobile Settings */
 @media screen and (max-width: 740px) {

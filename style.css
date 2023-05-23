@@ -387,33 +387,40 @@ h2 {
 }
 
 @media screen and (max-width: 740px) {
-    .media-container{
-        grid-template-columns: auto;
-    }
+    .media-container{display: block;}
+
+    .media-item{margin: 10px 0;}
 }
 
 /************************************
 *       Web Dev Page Settings       *
 ************************************/
-.tooltip{
+
+.tooltip {
     position: relative;
-    display: contents;
+    overflow: hidden;
 }
 
-.tooltip .webDesc {
+.IASIPimg {
+    border-radius: 10px;
+    width: 70%;
+}
+
+.webDesc {
     visibility: hidden;
-    width: 30%;
     background-color: black;
+    color: #f1d443;
     text-align: center;
     padding: 5px 0;
     border-radius: 10px;
 
     /* Positioning Tooltip Text */
     position: absolute;
-    z-index: 1;
-    top: 70%;
+    bottom: 15px;
+    padding: 10px;
     left: 50%;
-    margin-left: -15%;
+    transform: translateX(-50%);
+    width: 90%;
 
     /* Fade in tooltip */
     opacity: 0;
@@ -424,12 +431,6 @@ h2 {
     visibility: visible;
     opacity: 1;
     transition: all .75s ease-in;
-}
-
-@media screen and (max-width: 740px) {
-    .tooltip img{
-        width: 75%;
-    }
 }
 
 footer{
